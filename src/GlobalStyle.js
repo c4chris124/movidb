@@ -5,17 +5,18 @@ export const GlobalStyle = createGlobalStyle`
     --maxWidth: 1280px;
     --white: #fff;
     --lightGrey: #eee;
-    --medGrey: #1c1c1c;
+    --medGrey: #353535;
+    --darkGrey: #1c1c1c;
     --fotSuperBig: 2.5rem;
     --fontBig: 1.5rem;
     --fontMed: 1.2rem;
     --fontSmall: 1rem;
 }
 
-*{
+* {
     box-sizing: border-box;
     font-family: 'Abel', sans-serif;
-}
+ }
 
 body{
     margin: 0;
@@ -39,4 +40,4 @@ body{
 
 
 
-`
+`;
